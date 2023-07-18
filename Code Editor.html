@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.Code Editor.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Belanosima&family=Caprasimo&family=Mukta&family=Nunito:wght@500&family=Ramabhadra&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Code Editor.css">
+</head>
+
+<body>
+
+
+    <header>
+        <h1 class="heading">CODE EDITOR</h1>
+    </header>
+
+
+    <div class="code_editor">
+        <div class="code">
+            <section class="html_box">
+                <h1><img src="https://clipground.com/images/html5-png-image-10.png" alt="img">HTML</h1>
+                <textarea id="html_text" onkeyup="run()" cols="30" rows="10"></textarea>
+            </section>
+            <section class="css_box">
+                <h1><img src="https://logospng.org/download/css-3/logo-css-3-2048.png" alt="img">CSS</h1>
+                <textarea id="css_text" onkeyup="run()" cols="30" rows="10"></textarea>
+            </section>
+            <section class="js_box">
+                <h1><img src="https://logospng.org/download/javascript/logo-javascript-1024.png" alt="img">Javascript
+                </h1>
+                <textarea id="js_text" onkeyup="run()" cols="30" rows="10"></textarea>
+            </section>
+        </div>
+        <iframe id="result"></iframe>
+    </div>
+
+
+    <script src="Code Editor.js"></script>
+</body>
+
+</html>
